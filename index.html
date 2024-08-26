@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moka by Paula Alvear</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+    <link href="style/buttons.css" rel="stylesheet" type="text/css">
+    <link href="style/colors.css" rel="stylesheet" type="text/css">
+    <link href="style/containers.css" rel="stylesheet" type="text/css">
+    <link href="style/controls.css" rel="stylesheet" type="text/css">
+    <link href="style/flexbox.css" rel="stylesheet" type="text/css">
+    <link href="style/geometry.css" rel="stylesheet" type="text/css">
+    <link href="style/images.css" rel="stylesheet" type="text/css">
+    <link href="style/header.css" rel="stylesheet" type="text/css">
+    <link href="style/index.css" rel="stylesheet" type="text/css">
+    <link href="style/responsive.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav class="header-menu">
+            <button class="big-button toggle-button">&#9776;</button>
+            <ul>
+                <li><a href="#heroSec" id="aboutBtn">Inicio</a></li>
+                <li><a href="#aboutSec" id="aboutBtn">Nosotras</a></li>
+                <li><a href="#productsSec" id="projectsBtn">Catálogo de productos</a></li>
+                <li><a href="#pricingSec" id="educationBtn">Métodos de pago</a></li>
+                <li><a href="#contactSec" id="contactBtn">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="height-100-vh col-flex space-evenly light-background" id="heroSec">
+        <div class="row-flex justify-center width-90-pct">
+            <img src="https://avatars.githubusercontent.com/u/46000191" id="profileImg"/>
+        </div>
+        <div class="col-flex space-around width-90-pct">
+            <h1>MOKA BY PAULA ALVEAR</h1>
+            <h3>DECO & HOME - CESTERÍA NÓRDICA</h3>
+        </div>
+        <div class="wrapped-flex space-evenly width-90-pct">
+            <button class="big-button font-larger dark-background dark-hover" onclick="window.location.href='https://moka.somee.com';">Ir a la tienda</button>
+        </div>
+    </section>
+
+    <section class="height-100-vh col-flex space-evenly" id="aboutSec">
+        <div class="row-flex space-around width-100-pct">
+            <h1>NOSOTRAS</h1>
+        </div>
+    </section>
+
+    <section class="col-flex space-evenly" id="productsSec">
+        <div class="row-flex space-around width-100-pct">
+            <h1>CATÁLOGO DE PRODUCTOS</h1>
+        </div>
+        <div class="wrapped-flex space-evenly width-100-pct">
+            <div class="col-flex space-evenly light-background product-card">
+                <h3>Alfombras</h3>
+                <div class="width-90-pct">
+                    <img class="square-image" src="https://imgur.com/XxUQ1v7.jpg"/>
+                </div>
+                <button class="big-button font-larger dark-background dark-hover" onclick="window.location.href='https://moka.somee.com/Home.aspx?catId=4';">Ver categoría</button>
+            </div>
+            <div class="col-flex space-evenly light-background product-card">
+                <h3>Cestos</h3>
+                <div class="width-90-pct">
+                    <img class="square-image" src="https://imgur.com/otuKJJX.jpg"/>
+                </div>
+                <button class="big-button font-larger dark-background dark-hover" onclick="window.location.href='https://moka.somee.com/Home.aspx?catId=1';">Ver categoría</button>
+            </div>
+            <div class="col-flex space-evenly light-background product-card">
+                <h3>Carteras</h3>
+                <div class="width-90-pct">
+                    <img class="square-image" src="https://imgur.com/lXegQUV.jpg"/>
+                </div>
+                <button class="big-button font-larger dark-background dark-hover" onclick="window.location.href='https://moka.somee.com/Home.aspx?catId=5';">Ver categoría</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="height-100-vh col-flex space-evenly" id="pricingSec">
+        <div class="row-flex space-around width-100-pct">
+            <h1>MÉTODOS DE PAGO</h1>
+        </div>
+        <div class="wrapped-flex space-evenly width-100-pct">
+            <div class="col-flex space-evenly very-light-background payment-card">
+                <h3>Efectivo</h3>
+                <img class="height-100-px" src="https://cdn.icon-icons.com/icons2/2427/PNG/512/cash_icon_147027.png"/>
+            </div>
+            <div class="col-flex space-evenly very-light-background payment-card">
+                <h3>Mercado Pago</h3>
+                <img class="height-100-px" src="https://seeklogo.com/images/M/mercado-pago-logo-18C70D8C77-seeklogo.com.png?v=638388567980000000"/>
+            </div>
+            <div class="col-flex space-evenly very-light-background payment-card">
+                <h3>Transferencia bancaria</h3>
+                <img class="height-100-px" src="https://cdn-icons-png.flaticon.com/512/8043/8043680.png" />
+            </div>
+        </div>
+    </section>
+
+    <section class="height-100-vh col-flex space-evenly very-dark-background" id="contactSec">
+        <div class="row-flex space-around width-100-pct">
+            <h1>CONTACTO</h1>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<script src=script/menu.js ></script>

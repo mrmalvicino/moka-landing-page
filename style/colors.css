@@ -1,0 +1,50 @@
+.very-light-background
+{
+    color: black;
+    background-color: #ffffc7;
+}
+
+.light-background
+{
+    color: black;
+    background-color: #ddc88f;
+}
+
+.dark-background
+{
+    color: white;
+    background-color: #916b5e;
+}
+
+.very-dark-background
+{
+    color: white;
+    background-color: #4e3300;
+}
+
+.light-hover:hover
+{
+    color: black;
+    background-color: #ecdfcd;
+}
+
+.dark-hover:hover
+{
+    color: white;
+    background-color: #604a33;
+}
+
+.light-shadow
+{
+    box-shadow: 0px 0px 30px rgba(180, 180, 180, 0.7);
+}
+
+.dark-shadow
+{
+    box-shadow: 0px 0px 30px rgba(34, 34, 34, 0.8);
+}
+
+.opacity-60-pct
+{
+    opacity: 0.6;
+}

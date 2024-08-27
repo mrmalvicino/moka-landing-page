@@ -1,37 +1,115 @@
-.very-light-background
+.background-10
 {
     color: black;
-    background-color: #ffffc7;
+    background-color: rgb(239, 236, 230);
 }
 
-.light-background
+.background-9
 {
     color: black;
-    background-color: #ddc88f;
+    background-color: #fff9e1;
 }
 
-.dark-background
-{
-    color: white;
-    background-color: #916b5e;
-}
-
-.very-dark-background
-{
-    color: white;
-    background-color: #4e3300;
-}
-
-.light-hover:hover
+.background-8
 {
     color: black;
-    background-color: #ecdfcd;
+    background-color: #e3d7bf;
 }
 
-.dark-hover:hover
+.background-7
 {
     color: white;
-    background-color: #604a33;
+    background-color: #c7b69f;
+}
+
+.background-6
+{
+    color: white;
+    background-color: #ab9680;
+}
+
+.background-5
+{
+    color: white;
+    background-color: #907761;
+}
+
+.background-4
+{
+    color: white;
+    background-color: #7e634e;
+}
+
+.background-3
+{
+    color: white;
+    background-color: #735945;
+}
+
+.background-2
+{
+    color: white;
+    background-color: #69503c;
+}
+
+.background-1
+{
+    color: white;
+    background-color: #5f4633;
+}
+
+.hover-9:hover
+{
+    color: black;
+    background-color: #fff9e1;
+}
+
+.hover-8:hover
+{
+    color: black;
+    background-color: #e3d7bf;
+}
+
+.hover-7:hover
+{
+    color: white;
+    background-color: #c7b69f;
+}
+
+.hover-6:hover
+{
+    color: white;
+    background-color: #ab9680;
+}
+
+.hover-5:hover
+{
+    color: white;
+    background-color: #907761;
+}
+
+.hover-4:hover
+{
+    color: white;
+    background-color: #7e634e;
+}
+
+.hover-3:hover
+{
+    color: white;
+    background-color: #735945;
+}
+
+.hover-2:hover
+{
+    color: white;
+    background-color: #69503c;
+}
+
+.hover-1:hover
+{
+    color: white;
+    background-color: #5f4633;
 }
 
 .light-shadow

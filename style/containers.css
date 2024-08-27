@@ -1,13 +1,20 @@
 .product-card
 {
-    width: 400px;
+    width: 300px;
     height: 500px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .payment-card
 {
     width: 200px;
-    height: 300px;
-    border-radius: 20px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.faq-card
+{
+    width: 450px;
+    height: 120px;
+    border-radius: 5px;
 }

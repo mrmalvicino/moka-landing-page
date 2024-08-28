@@ -38,13 +38,12 @@
         </nav>
     </header>
 
-    <section class="height-100-vh col-flex space-evenly background-6" id="heroSec">
+    <section class="height-100-vh col-flex space-evenly" id="heroSec">
         <div class="row-flex justify-center width-90-pct">
-            <img src="https://avatars.githubusercontent.com/u/46000191" id="profileImg"/>
+            <img src="images/logo.jpg" id="profileImg"/>
         </div>
-        <div class="col-flex space-around width-90-pct">
-            <h1>MOKA BY PAULA ALVEAR</h1>
-            <h3>DECO & HOME - CESTERÍA NÓRDICA</h3>
+        <div class="col-flex space-around width-100-pct">
+            <h1 class="bold color-1 light-text-shadow">DECO & HOME - CESTERÍA NÓRDICA</h1>
         </div>
         <div class="wrapped-flex space-evenly width-90-pct">
             <button
@@ -59,6 +58,16 @@
         <div class="row-flex space-around width-100-pct">
             <h1>NOSOTRAS</h1>
         </div>
+        <div class="wrapped-flex justify-center width-100-pct">
+            <img
+                class="polaroid-photograph light-box-shadow"
+                src="images/about.png"/>
+            <div class="note-card col-flex space-around light-box-shadow">
+                <h4>Somos Paula y Mariana, las manos y corazones detrás de nuestro emprendimiento de cestería nórdica artesanal.</h4>
+                <h4>Desde el primer día, nos unió la pasión por lo hecho a mano y el deseo de crear productos que no solo sean funcionales, sino que también embellezcan y llenen de calidez cualquier espacio.</h4>
+                <h4>Juntas, trabajamos para que cada artículo sea un objeto especial que refleje la belleza y simplicidad del estilo nórdico, hecho con amor y pensado para acompañarte en tu hogar.</h4>
+            </div>
+        </div>
     </section>
 
     <section class="height-100-vh col-flex space-evenly background-6" id="productsSec">
@@ -66,39 +75,51 @@
             <h1>CATÁLOGO DE PRODUCTOS</h1>
         </div>
         <div class="wrapped-flex space-evenly width-100-pct">
-            <div class="dark-shadow background-10 col-flex space-evenly margin-20-px product-card">
-                <h3>Alfombras</h3>
+            <div class="dark-box-shadow background-10 col-flex space-evenly product-card">
+                <h3>Individuales</h3>
                 <div class="width-90-pct">
-                    <img class="square-image" src="https://imgur.com/XxUQ1v7.jpg"/>
+                    <img
+                        class="square-image"
+                        src="images/cat_individuales.png"/>
                 </div>
                 <button
                     class="big-button font-larger background-5 hover-6"
-                    onclick="window.location.href='https://moka.somee.com/Home.aspx?catId=4';">
+                    onclick="window.location.href='https://moka.somee.com/Home.aspx?catId=3';">
                     Ver categoría
                 </button>
             </div>
-            <div class="dark-shadow background-10 col-flex space-evenly margin-20-px product-card">
+            <div class="dark-box-shadow background-10 col-flex space-evenly product-card">
                 <h3>Cestos</h3>
                 <div class="width-90-pct">
                     <img
                         class="square-image"
-                        src="https://imgur.com/otuKJJX.jpg"/>
-                </div>
-                <button class="big-button font-larger background-5 hover-6" onclick="window.location.href='https://moka.somee.com/Home.aspx?catId=1';">Ver categoría</button>
-            </div>
-            <div class="dark-shadow background-10 col-flex space-evenly margin-20-px product-card">
-                <h3>Carteras</h3>
-                <div class="width-90-pct">
-                    <img
-                        class="square-image"
-                        src="https://imgur.com/lXegQUV.jpg"/>
+                        src="images/cat_cestos.png"/>
                 </div>
                 <button
                     class="big-button font-larger background-5 hover-6"
-                    onclick="window.location.href='https://moka.somee.com/Home.aspx?catId=5';">
+                    onclick="window.location.href='https://moka.somee.com/Home.aspx?catId=1';">
                     Ver categoría
                 </button>
             </div>
+            <div class="dark-box-shadow background-10 col-flex space-evenly product-card">
+                <h3>Organizadores</h3>
+                <div class="width-90-pct">
+                    <img
+                        class="square-image"
+                        src="images/cat_organizadores.png"/>
+                </div>
+                <button
+                    class="big-button font-larger background-5 hover-6"
+                    onclick="window.location.href='https://moka.somee.com/Home.aspx?catId=2';">
+                    Ver categoría
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="width-100-pct background-9 color-1">
+        <div class="banner-slide">
+            <h3 class="bold">• 3x2 EN COMPRAS ONLINE • 15% DTO. EN EFECTIVO •</h3>
         </div>
     </section>
 
@@ -107,25 +128,25 @@
             <h1>MEDIOS DE PAGO</h1>
         </div>
         <div class="wrapped-flex space-evenly width-100-pct">
-            <div class="light-shadow col-flex space-evenly margin-20-px payment-card">
+            <div class="light-box-shadow col-flex space-evenly payment-card">
                 <h3>Efectivo</h3>
                 <img
                     class="height-100-px"
                     src="https://cdn.icon-icons.com/icons2/2427/PNG/512/cash_icon_147027.png"/>
             </div>
-            <div class="light-shadow col-flex space-evenly margin-20-px payment-card">
+            <div class="light-box-shadow col-flex space-evenly payment-card">
                 <h3>Mercado Pago</h3>
                 <img
                     class="height-100-px"
                     src="https://seeklogo.com/images/M/mercado-pago-logo-18C70D8C77-seeklogo.com.png?v=638388567980000000"/>
             </div>
-            <div class="light-shadow col-flex space-evenly margin-20-px payment-card">
+            <div class="light-box-shadow col-flex space-evenly payment-card">
                 <h3>Transf. bancaria</h3>
                 <img
                     class="height-100-px"
                     src="https://cdn-icons-png.flaticon.com/512/8043/8043680.png"/>
             </div>
-            <div class="light-shadow col-flex space-evenly margin-20-px payment-card">
+            <div class="light-box-shadow col-flex space-evenly payment-card">
                 <h3>Débito / Crédito</h3>
                 <img
                     class="height-100-px"
@@ -139,48 +160,72 @@
             <h1>PREGUNTAS FRECUENTES</h1>
         </div>
         <div class="wrapped-flex space-around margin-bottom-20-px">
-            <div class="faq-card padding-15-px margin-20-px light-shadow background-10 col-flex space-evenly">
+            <div class="faq-card light-box-shadow background-10 col-flex space-evenly">
                 <h4>¿Hacen envíos a todo el país?</h4>
                 <h6>Sí, realizamos envíos a todas las provincias de Argentina.</h6>
             </div>
-            <div class="faq-card padding-15-px margin-20-px light-shadow background-10 col-flex space-evenly">
+            <div class="faq-card light-box-shadow background-10 col-flex space-evenly">
                 <h4>¿Cuánto cuesta el envío?</h4>
                 <h6>El costo del envío comienza en $5000, dependiendo de la zona.</h6>
             </div>
-            <div class="faq-card padding-15-px margin-20-px light-shadow background-10 col-flex space-evenly">
+            <div class="faq-card light-box-shadow background-10 col-flex space-evenly">
                 <h4>¿Ofrecen devolución?</h4>
-                <h6>Sí, aceptamos devoluciones gratuitas por cualquier motivo.</h6>
+                <h6>Sí, aceptamos devoluciones gratuitas.</h6>
             </div>
-            <div class="faq-card padding-15-px margin-20-px light-shadow background-10 col-flex space-evenly">
+            <div class="faq-card light-box-shadow background-10 col-flex space-evenly">
                 <h4>¿Los productos están disponibles en otros colores?</h4>
                 <h6>Sí, podemos fabricar productos en otros colores a pedido.</h6>
             </div>
-            <div class="faq-card padding-15-px margin-20-px light-shadow background-10 col-flex space-evenly">
+            <div class="faq-card light-box-shadow background-10 col-flex space-evenly">
                 <h4>¿Cuál es el tiempo de entrega?</h4>
                 <h6>La entrega es inmediata para productos en stock.</h6>
             </div>
-            <div class="faq-card padding-15-px margin-20-px light-shadow background-10 col-flex space-evenly">
+            <div class="faq-card light-box-shadow background-10 col-flex space-evenly">
                 <h4>¿Hacen modelos con medidas especiales?</h4>
                 <h6>Sí, fabricamos modelos personalizados a pedido.</h6>
             </div>
-            <div class="faq-card padding-15-px margin-20-px light-shadow background-10 col-flex space-evenly">
+            <div class="faq-card light-box-shadow background-10 col-flex space-evenly">
                 <h4>¿Ofrecen venta mayorista?</h4>
                 <h6>Sí, consultanos para obtener precios por compras al por mayor.</h6>
             </div>
-            <div class="faq-card padding-15-px margin-20-px light-shadow background-10 col-flex space-evenly">
+            <div class="faq-card light-box-shadow background-10 col-flex space-evenly">
                 <h4>¿Tienen un local o showroom?</h4>
                 <h6>Participamos en ferias de Zona Norte y contamos con showrooms en Don Torcuato y Pilar.</h6>
-            </div>
-            <div class="faq-card padding-15-px margin-20-px light-shadow background-10 col-flex space-evenly">
-                <h4>¿Se pueden lavar en lavadora?</h4>
-                <h6>Sí, nuestros productos son aptos para lavar en lavadora.</h6>
             </div>
         </div>
     </section>
 
     <section class="height-100-vh col-flex space-evenly background-1" id="contactSec">
-        <div class="row-flex space-around width-100-pct">
-            <h1>CONTACTO</h1>
+        <div class="light-background light-shadow col-flex width-90-pct">
+            <div class="row-flex space-around width-100-pct">
+                <h1 id="contactTxt">CONTACTO</h1>
+            </div>
+            <div class="wrapped-flex space-around">
+                <div class="row-flex space-around padding-15-px">
+                    <a href="mailto:mokabypaulaalvear@gmail.com">
+                        <img src="images/contact_gmail.png" class="image-50-px"/>
+                    </a>
+                    <div class="margin-0-10-px">
+                        <h4>mokabypaulaalvear@gmail.com</h4>
+                    </div>
+                </div>
+                <div class="row-flex space-around padding-15-px">
+                    <a href="phone:1158687376">
+                        <img src="images/contact_whatsapp.png" class="image-50-px"/>
+                    </a>
+                    <div class="margin-0-10-px">
+                        <h4>+54 (911) 15-5868-7376</h4>
+                    </div>
+                </div>
+                <div class="row-flex space-around padding-15-px">
+                    <a href="https://www.instagram.com/mokabypaulaalvear" class="invisible-link">
+                        <img src="images/contact_instagram.png" class="height-50-px"/>
+                    </a>
+                    <div class="margin-0-10-px">
+                        <h4>@mokabypaulaalvear</h4>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </body>

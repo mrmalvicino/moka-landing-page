@@ -17,3 +17,14 @@
     object-fit: cover;
     background-color: white;
 }
+
+.polaroid-photograph
+{
+    height: 50vh;
+    aspect-ratio: 1/1;
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    transform: rotate(-5deg);
+}

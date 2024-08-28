@@ -1,5 +1,14 @@
 /* ID */
 
+#heroSec
+{
+    background-image: url('../images/hero.png'), linear-gradient(rgba(200, 200, 200, 0.7), rgba(200, 200, 200, 0.7));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
 #profileImg
 {
     margin-top: 50px;
@@ -36,51 +45,11 @@
         width: 50%;
     }
 
-    /* Skills Section */
+    /* Pricing Section */
 
-    #skillsSec .margin-30-px
+    #pricingSec .payment-card
     {
-        margin: 5px;
-    }
-
-    #skillsSec .padding-15-px
-    {
-        padding: 10px;
-    }
-
-    /* Projects Section */
-
-    #projectsSec p
-    {
-        font-size: 14px;
-    }
-
-    #projectsSec .image-50-px
-    {
-        height: 30px;
-    }
-
-    /* Education Section */
-
-    #educationSec .margin-30-px
-    {
-        margin: 0px;
-    }
-
-    #educationSec .image-50-px
-    {
-        height: 30px;
-    }
-
-    /* Contact Section */
-
-    #socialMediaDiv .margin-0-10-px
-    {
-        margin: 10px 0px 25px;
-    }
-
-    #socialMediaDiv .padding-15-px
-    {
-        padding: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }

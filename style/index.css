@@ -27,12 +27,12 @@
     #profileImg
     {
         margin-top: 0px;
-        width: 70%;
+        width: 60%;
     }
 
     #heroSec h1
     {
-        font-size: 48px;
+        font-size: 36px;
     }
 
     /* About Section */
@@ -42,7 +42,7 @@
         height: 30vh;
     }
 
-    #abputSec h4
+    #aboutSec h4
     {
         font-size: 16px;
     }
@@ -54,7 +54,7 @@
         font-size: 18px;
     }
 
-    #pricingSec .paymentCard
+    #pricingSec .payment-card
     {
         width: 140px;
         height: 140px;

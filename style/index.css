@@ -9,13 +9,9 @@
     background-blend-mode: overlay;
 }
 
-#profileImg
+#heroSec img
 {
     margin-top: 50px;
-    width: 35vh;
-    height: auto;
-    border-radius: 50%;
-    object-fit: cover; /* Escalar el contenido manteniendo la relación de aspecto. */
 }
 
 /* Responsive */
@@ -24,10 +20,9 @@
 {
     /* Hero Section */
 
-    #profileImg
+    #heroSec img
     {
         margin-top: 0px;
-        width: 60%;
     }
 
     #heroSec h1
@@ -44,7 +39,7 @@
 
     #aboutSec h4
     {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     /* Pricing Section */

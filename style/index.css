@@ -22,34 +22,19 @@
 
 @media screen and (max-width: 575px)
 {
-    /* About Section */
-
-    #aboutSec h1
-    {
-        margin: 5px 0px;
-    }
-
-    #aboutSec h3
-    {
-        font-size: 18px;
-    }
-
-    #aboutSec h5
-    {
-        font-size: 14px;
-    }
+    /* Hero Section */
 
     #profileImg
     {
         margin-top: 0px;
-        width: 50%;
+        width: 70%;
     }
+
+    /* About Section */
+
+    
 
     /* Pricing Section */
 
-    #pricingSec .payment-card
-    {
-        margin-left: 5px;
-        margin-right: 5px;
-    }
+
 }

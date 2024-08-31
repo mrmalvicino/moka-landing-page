@@ -30,12 +30,4 @@
     {
         display: block; /* Mostrar el botón en pantallas pequeñas */
     }
-
-    /* Containers */
-
-    .project-card
-    {
-        width: 95%;
-        height: 600px;
-    }
 }

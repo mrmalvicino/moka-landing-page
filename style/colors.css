@@ -1,3 +1,8 @@
+.color-1
+{
+    color: #5f4633;
+}
+
 .background-10
 {
     color: black;
@@ -110,11 +115,6 @@
 {
     color: white;
     background-color: #5f4633;
-}
-
-.color-1
-{
-    color: #5f4633;
 }
 
 .light-box-shadow

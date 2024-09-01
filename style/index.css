@@ -25,6 +25,11 @@
         margin-top: 0px;
     }
 
+    #heroSec .width-300-px
+    {
+        width: 180px;
+    }
+
     #heroSec h1
     {
         font-size: 36px;
@@ -32,9 +37,9 @@
 
     /* About Section */
 
-    #aboutSec .polaroid-photograph
+    #aboutSec .width-400-px
     {
-        height: 30vh;
+        width: 300px;
     }
 
     #aboutSec h4
